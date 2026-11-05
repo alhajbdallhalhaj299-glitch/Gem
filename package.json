@@ -1,12 +1,15 @@
 
 
-",
+{
+  "name": "gem",
   "version": "1.0.0",
   "dependencies": {
- "tiktok-live-connector": " latest", 
- "express": "latest" ,
+ "tiktok-live-connector": "latest",
+ "express": "latest"
   },
   "scripts": {
  "start": "node server.js"
   }
+}
+
 
