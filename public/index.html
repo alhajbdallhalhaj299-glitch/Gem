@@ -1,0 +1,25 @@
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <title>عداد هدايا التيك توك</title>
+ <style>
+ body { font-family: sans-serif; text-align: center; padding-top: 50px; background: #111; color: white; }
+ .score { font-size: 120px; font-weight: bold; color: #ffcc00; }
+ </style>
+ </head>
+ <body>
+ <h1>مجموع الهدايا</h1>
+ <div class="score" id="score">0</div>
+ <script>
+ setInterval(async () => {
+ const res = await fetch('/score');
+ const data = await res.json();
+ document.getElementById('score').textContent = data.score;
+ }, 2000);
+ </script>
+ </body>
+ </html>
+ ```
+
+
