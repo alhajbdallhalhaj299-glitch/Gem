@@ -1,9 +1,6 @@
 
 
-
-
-{
-  "name": "tiktok-live-counter",
+",
   "version": "1.0.0",
   "dependencies": {
  "tiktok-live-connector": " latest", 
@@ -12,6 +9,4 @@
   "scripts": {
  "start": "node server.js"
   }
-}
-
 
